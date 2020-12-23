@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Jost&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="profile-back" id="home">
+    <img class="profile" src ="{{url_for('static', filename='headshot.jpg')}}" height="180"/>
+    <h1>Allison Lo</h1>
+  </div>
+  <div class = "nav">
+    <ul>
+      <li><a class = "active" href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT ME</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+      <li><a href="#experience">EXPERIENCE</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+    </ul>
+  </div>
+  <div>
+    <h2>Hello!
+      <p>I'm an aspiring software developer currently pursuing my Master's in Computer Science<br/> at Carnegie Mellon University.</p>
+      <p>Let's Connect:</p>
+      <a href="https://www.linkedin.com/in/allison-lo">
+        <i class = "fa fa-linkedin-square fa-1x"></i>
+      </a>
+      <a href="https://github.com/allo82">
+        <i class="fa fa-github fa-1x"></i>
+      </a>
+    </h2> 
+  </div>
+  <hr class = "small" id="about">
+  <div>
+    <h2>About Me
+      <p>I enjoy hiking, visiting National Parks, and expanding my programming knowledge.</p>
+      <figure>
+        <img src="{{url_for('static',filename='DSC_0499.NEF.jpg')}}" height="250"/>
+        <figcaption>Point Arena Lighthouse, Point Arena, CA</figcaption>
+      </figure>
+    </h2>
+  </div>
+  <hr class = "small" id="education">
+  <div>
+    <h2>Education 
+      <p><i>M.S. Computer Science</i>, Carnegie Mellon University, Expected May 2022</p>
+      <p>Coursework:</p>
+      <p>Spring 2021: <br/>15-513 Introduction to Computer Systems<br/>15-650 Algorithms & Advanced Data Structures<br/>05-891 Designing Human Centered Software</p>
+      <p>Fall 2020: <br/>15-151 Mathematical Foundations for Computer Science<br/> 36-700 Probability & Mathematical Statistics<br/> 15-122 Principles of Imperative Computation</p>
+      <p><i>B.S. Chemical Engineering</i>, UC Davis</p>
+    </h2>
+  <div>
+  <hr class = "small" id="experience">
+  <div>
+    <h2>Experience
+      <p>Process Engineer, Eichleay, Inc.<br/> July 2016-August 2020</p>
+      <p>SSRL Research Intern, SLAC National Accelerator Laboratory<br/> June 2015-August 2015</p>
+      <p>Undergraduate Research Assistant, UC Davis<br/> June 2014-June 2016</p>
+    </h2>
+  <div>
+  <hr class = "small" id="projects">
+    <h2>Projects
+      <p>IndyCampster<br/> June 2019-December 2019</p>
+      <p>Website to notify users of campsite availability in the California State Parks. Utilized Bootstrap, Flask, HTML/CSS, Python, and MySQL.</p>
+    </h2>
+  </div>
+  <hr class = "small" id="skills">
+  <div>
+    <h2>Skills
+      <p>Programming: Java, Python, C, Git</p>
+    </h2>
+  </div>
+</body>
+<footer class="footer">
+  <p class="copyright">&copy;2020 Allison Lo</p>
+</footer>
+</html>
+

@@ -1,0 +1,103 @@
+.profile-back {
+  padding: 30px;
+  color: white;
+  background-image: url('/static/fern by RL.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-shadow: 2px 2px black;
+  background-position: center center;
+  top: 0;
+  left: 0;
+}
+
+.profile {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: white;
+  border-style: solid;
+  border-width: 2px;
+}
+
+hr.small {
+  border-top: 6px solid #bbb;
+  width: 20%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  top: 0%;
+  left: 50%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Jost', sans-serif;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+i:hover {
+  color: #bbb;
+}
+
+i {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.nav ul {
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  float: left;
+  color: black;
+  padding: 14px 16px;
+  font-size: 18px;
+  overflow: hidden;
+  font-family: 'Jost', sans-serif;
+}
+
+.nav a:hover {
+  color: #bbb;
+}
+
+figcaption {
+  font-size: 18px;
+}
+
+.copyright {
+  color: #bbb;
+  font-size:14px;
+}
